@@ -11,7 +11,7 @@ April 2019
 - Dan Archer
 - Kipngetich Kemei
 
-# The Coffe Can
+# The Coffee Can
 description goes here
 
 ## Getting Started
