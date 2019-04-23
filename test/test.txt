@@ -1,2 +1,0 @@
-slack intergration test
-[GM] - test_access ok with Slack notification
