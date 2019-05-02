@@ -389,6 +389,11 @@ template {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+header{
+	position: relative;
+	padding: 20em;
+	color: #ffff00 !important;
+}
 body,
 button,
 input,
