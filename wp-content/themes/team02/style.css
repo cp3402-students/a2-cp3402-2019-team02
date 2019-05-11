@@ -389,6 +389,18 @@ template {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+#menu_content {
+	margin-left: 50px;
+}
+#events_content {
+	margin-left: 50px;
+}
+#services_content {
+	margin-left: 50px;
+ }
+#about_us_content {
+	margin-left: 50px;
+}
 .header-image{
 
 }
@@ -891,6 +903,7 @@ a:hover, a:active {
 .entry-summary {
 	margin: 1.5em 0 0;
 	padding-right: 40px;
+	padding-left: 40px;
 }
 
 .page-links {

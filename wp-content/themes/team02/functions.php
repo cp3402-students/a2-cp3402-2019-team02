@@ -119,8 +119,9 @@ add_action( 'widgets_init', 'team02_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
+
 function team02_scripts() {
-	wp_enqueue_style( 'team02-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'team02-style', get_stylesheet_uri(), '', rand( 1, 99999999999 ) );
 
 	wp_enqueue_script( 'team02-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

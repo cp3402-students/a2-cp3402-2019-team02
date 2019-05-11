@@ -26,7 +26,7 @@
 
 	<header id="masthead" class="site-header">
 <!--        had to remove img attribute : max-width: 100%; for header image to display at the correct size-->
-        <a href="http://localhost/team02/" rel="home"><?php the_header_image_tag(); ?></a>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?><?php the_header_image_tag(); ?></a>
         <div class="site-branding">
 			<?php
 			the_custom_logo();
