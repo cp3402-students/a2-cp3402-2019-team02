@@ -36,6 +36,7 @@ Any and all steps regarding deployment can be found in the aforementioned set-up
 - Visual studio Code: https://code.visualstudio.com/
 - PhpStorm: https://www.jetbrains.com/phpstorm/
 - Github: https://github.com/
+- Google Clould Platform - hosting platform for the live site
 
 
 ## Versioning
