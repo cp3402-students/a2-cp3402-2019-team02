@@ -55,7 +55,7 @@ Versioning is largely handeld by github via the use of commits to both the main 
 	- Github - https://github.com/Comedy112
 	- LinkedIn - https://www.linkedin.com/in/hendrik-nel-350175b5/
 - Dan Archer :
-	- Github - 
+	- Github - https://github.com/danarcher96
 	- LinkedIn - https://www.linkedin.com/in/dan-archer-9801bb16b/
 
 ## License
