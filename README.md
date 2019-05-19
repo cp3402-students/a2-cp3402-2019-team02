@@ -1,4 +1,4 @@
-# a2-cp3402-2019-team02
+﻿# a2-cp3402-2019-team02
 a2-cp3402-2019-team02 created by GitHub Classroom
 
 #CP3402 Assignment 2 & Presentation
@@ -70,7 +70,10 @@ Note: this folder name is optional i.e. coffeecan_local1, coffeecan_local2 etc.
 
 ![](Images/step11image1.png)![](Images/step11image2.png)
 
-10. Install and activate plug-in called ‘All-in-One WP Migration’ (once activated it will be visible in installed plugins section of Wordpress dashboard).
+10. 
+	a. Install and activate plug-in called ‘All-in-One WP Migration’ (once activated it will be visible in installed plugins section of Wordpress dashboard).
+	b. Increase file import limit on local site so can import the staging server backup: Download and install 'All-in-One WP Migration Import' (Basic version) from website (URL: https://import.wp-migration.com/
+	For details information on how to do this refer (URL: https://help.servmask.com/knowledgebase/install-instructions-for-file-extension/)
 
 11. Visit main branch of github repository https://github.com/cp3402-students/a2-cp3402-2019-team02 , download the latest website export that can be found there.
 

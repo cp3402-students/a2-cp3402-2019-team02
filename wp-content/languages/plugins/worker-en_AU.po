@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - ManageWP Worker - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-04-30 23:33:03+0000\n"
+"PO-Revision-Date: 2019-05-15 03:17:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,11 +11,15 @@ msgstr ""
 "Language: en_AU\n"
 "Project-Id-Version: Plugins - ManageWP Worker - Development (trunk)\n"
 
+#: functions.php:825
+msgid "Every 5 Minutes"
+msgstr "Every 5 Minutes"
+
 #: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:148
 msgid "The automatic login token isn't properly signed. Please contact our support for help."
 msgstr "The automatic login token isn't properly signed. Please contact our support for help."
 
-#: functions.php:1030
+#: functions.php:1097
 msgid "The site is currently in maintenance mode."
 msgstr "The site is currently in maintenance mode."
 
@@ -60,8 +64,8 @@ msgid "ID"
 msgstr "ID"
 
 #: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:307
-msgid "Here is the list of currently active connections to this Worker plugin:"
-msgstr "Here is the list of currently active connections to this Worker plugin:"
+msgid "Here is the list of currently active connections to this plugin:"
+msgstr "Here is the list of currently active connections to this plugin:"
 
 #: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:300
 msgid "Enter this website's URL. When prompted, paste the connection key."
