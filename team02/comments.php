@@ -32,13 +32,13 @@ if ( post_password_required() ) {
 			if ( '1' === $team02_comment_count ) {
 				printf(
 					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'team02' ),
+					esc_html__( 'One comment on &ldquo;%1$s&rdquo;', 'team02' ),
 					'<span>' . get_the_title() . '</span>'
 				);
 			} else {
 				printf( // WPCS: XSS OK.
 					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $team02_comment_count, 'comments title', 'team02' ) ),
+					esc_html( _nx( '%1$s comment on &ldquo;%2$s&rdquo;', '%1$s comments on &ldquo;%2$s&rdquo;', $team02_comment_count, 'comments title', 'team02' ) ),
 					number_format_i18n( $team02_comment_count ),
 					'<span>' . get_the_title() . '</span>'
 				);

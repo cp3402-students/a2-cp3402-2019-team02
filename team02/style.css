@@ -40,6 +40,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Media
 	## Captions
 	## Galleries
+# Custom-posts
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Normalize
@@ -1031,4 +1032,95 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+
+/*--------------------------------------------------------------
+## Custom-posts
+--------------------------------------------------------------*/
+
+.entry-title-custom a, .entry-title-custom a:visited {
+	text-decoration: none;
+}
+
+h1.entry-title-custom, .h2.entry-title-custom{
+	font-size: 2em;
+	padding-bottom: 0;
+}
+
+h1.entry-title-custom, .h2.entry-title-custom, .entry-title-custom a, .entry-title-custom a:visited,
+.entry-title-custom a:hover, .entry-title-custom a:focus, .entry-title-custom a:active {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-bottom: 0;
+}
+
+.entry-meta-custom, .comment-metadata, .avatar, .comment-form-url, .comment-form-cookies-consent, .comment-awaiting-moderation {
+	display: none;
+}
+
+#comments, .nav-previous, .entry-content-custom, footer.entry-footer-custom  {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+nav-next  {
+	margin-right: 50px;
+}
+
+.entry-content-custom, footer.entry-footer-custom {
+	margin-top: -1.5em;
+	margin-bottom: 0.5em;
+}
+
+span.comments-link {
+	padding-left: 0.5em;
+}
+
+#comment {
+	max-height: 100px;
+}
+
+.comment-list{
+	margin-left: -15px;
+}
+
+.comment-content{
+	margin-bottom: -1.5em;
+}
+
+.comment-content p {
+	margin-top: 0;
+}
+
+.reply{
+	margin-bottom: 1em;
+}
+
+.comment-meta{
+	margin-top: -0.5em;
+}
+
+.nav-next  {
+	margin-right: 50px;
+	margin-top: -1em;
+}
+.nav-next ::after {
+	content: ' >>';
+}
+.nav-previous ::before {
+	content: '<< ';
+}
+
+@media screen and (min-width: 1000px) {
+	h1.entry-title-custom, .h2.entry-title-custom, .entry-title-custom a, .entry-title-custom a:visited,
+	.entry-title-custom a:hover, .entry-title-custom a:focus, .entry-title-custom a:active, #comments, .nav-previous,
+	.entry-content-custom, footer.entry-footer-custom  {
+		margin-left: 350px;
+		margin-right: 350px;
+	}
+	.nav-next  {
+		margin-right: 350px;
+		margin-top: -1em;
+	}
 }
