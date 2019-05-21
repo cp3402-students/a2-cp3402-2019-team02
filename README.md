@@ -136,7 +136,7 @@ Versioning is largely handled by github via the use of commits to both the main 
 - Kip Kemei : 
 	- Github - https://github.com/kkemei
 	- LinkedIn - https://www.linkedin.com/in/kipngetich-kemei-b83381117/
-- Broderick Thompson :
+- Broderick Thomsen :
 	- Github - https://github.com/BroderickWST
 	- LinkedIn - https://www.linkedin.com/in/broderick-thomsen-30a28b117/
 - Greg McLindon :
