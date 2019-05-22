@@ -1128,8 +1128,14 @@ span.comments-link {
 
 /*--------------------------------------------------------------
 ## Fitted pages
-## Uses a copy of code written by Greg McLindon (above)
 --------------------------------------------------------------*/
+
+.fitted-title {
+	font-size: 2em;
+	padding-bottom: 0;
+	margin-left: 390px;
+	margin-right: 390px;
+}
 
 @media screen and (min-width: 1000px) {
 	.fitted-content {
