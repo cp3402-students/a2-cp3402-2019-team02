@@ -1124,3 +1124,16 @@ span.comments-link {
 		margin-top: -1em;
 	}
 }
+
+
+/*--------------------------------------------------------------
+## Fitted pages
+## Uses a copy of code written by Greg McLindon (above)
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 1000px) {
+	.fitted-content {
+		margin-left: 350px;
+		margin-right: 350px;
+	}
+}
