@@ -14,6 +14,20 @@ May 2019
 # The Coffee Can
 The Coffee Can is a cafe that offers a variety of foods, coffees, and sweet treats. This document outlines the development guidelines for The Coffee Can's website.
 
+# Theme Details
+
+Theme title: Team02
+
+Theme version: 1.0.0
+
+Authors: Hendrik Nel, Broderick Thomsen, Greg McLindon, Dan Archer & Kipngetich Kemei
+
+Theme Description:
+Team02 theme is a light theme designed for small business owners that require simple site with a small number of easy-to-maintain static pages and blog posts that aren’t effective dated so that site content has a timeless appeal for the business owner that infrequently updates site posts. 
+
+Theme preview:
+![](Images/theme_preview.png)
+
 ## Getting Started
 Coffeecan website consists of a Live site, staging site and several local development site for each team member.
 Each team member has established the same development stack on their local pc consisting of the Wordpress installed on a WAMP server with phpMyAdmin database. We are all using PhpStorm IDE and have git version control on the Wordpress content files as well as a full export of both the staging site (located in the main branch) and the production site (located in the production branch).
