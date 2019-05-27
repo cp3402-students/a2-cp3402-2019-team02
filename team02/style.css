@@ -431,6 +431,31 @@ template {
 	line-height: 1em;
 }
 
+.site-footer {
+	background-color: #ffff00;
+
+	
+
+}
+
+
+.Row
+{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  padding: 3px;
+  background-color: #ffff00;
+
+    
+}
+.Column
+{
+    width: 33%;
+    text-align: center;
+     /*Optional*/
+}
+
 body,
 button,
 input,
