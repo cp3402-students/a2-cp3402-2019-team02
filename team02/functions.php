@@ -148,6 +148,9 @@ add_action( 'widgets_init', 'team02_widgets_init' );
  */
 
 function team02_scripts() {
+	//Enqueue: Google Fonts - Ramabhadra
+	wp_enqueue_style( 'team02-fonts', 'https://fonts.googleapis.com/css?family=Ramabhadra&display=swap');
+	
 	wp_enqueue_style( 'team02-style', get_stylesheet_uri(), '', rand( 1, 99999999999 ) );
 
 	wp_enqueue_script( 'team02-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
@@ -186,4 +189,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-

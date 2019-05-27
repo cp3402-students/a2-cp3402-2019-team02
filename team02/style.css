@@ -434,7 +434,7 @@ template {
 .site-footer {
 	background-color: #ffff00;
 
-	
+
 
 }
 
@@ -447,7 +447,7 @@ template {
   padding: 3px;
   background-color: #ffff00;
 
-    
+
 }
 .Column
 {
@@ -1167,4 +1167,14 @@ span.comments-link {
 		margin-left: 350px;
 		margin-right: 350px;
 	}
+}
+
+
+/*--------------------------------------------------------------
+## Menu customisation
+--------------------------------------------------------------*/
+
+.main-navigation {
+	font-size: 1.5em;
+	font-family: 'Ramabhadra', sans-serif;
 }
