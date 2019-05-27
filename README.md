@@ -23,7 +23,7 @@ Theme version: 1.0.0
 Authors: Hendrik Nel, Broderick Thomsen, Greg McLindon, Dan Archer & Kipngetich Kemei
 
 Theme Description:
-Team02 theme is a light theme designed for small business owners that require simple site with a small number of easy-to-maintain static pages and blog posts that aren’t effective dated so that site content has a timeless appeal for the business owner that infrequently updates site posts. 
+Team02 theme is a light theme designed for small business owners that require simple site with a small number of easy-to-maintain static pages and blog posts that aren’t effective dated so that site content has a timeless appeal for the business owner that infrequently updates site posts.
 
 Theme preview:
 ![](Images/theme_preview.png)
@@ -42,7 +42,7 @@ In order to ensure that you are ready to begin contributing to the development o
 
 ## Prerequisites
 What things you need to install and how to install them
-1. Install Wampserver - https://sourceforge.net/projects/wampserver/ 
+1. Install Wampserver - https://sourceforge.net/projects/wampserver/
 (Note: This is Window users only. Mac users can install MAMP - https://www.mamp.info/en/)
 2. Download wordpress install zip file - https://wordpress.org/download/
 3. The 'All-in-One WP Migration' plugin - https://en-au.wordpress.org/plugins/all-in-one-wp-migration/
@@ -54,7 +54,7 @@ Note: this folder name is optional i.e. coffeecan_local1, coffeecan_local2 etc.
 
 2. Extract contents of wordpress zip file to coffeecan_local folder
 	a. OPTIONAL: If your folder structure is now: C:\wamp64\www\coffeecan_local\wordpress\ then copy all the content of the wordpress folder and paste it into the the ‘coffeecan_local’ folder. Then delete the ‘wordpress’ folder. This step makes the local url for your development site a little cleaner in later steps.
-	
+
 ![](Images/step4a.png)
 
 3. Turn on Wampserver.
@@ -84,7 +84,7 @@ Note: this folder name is optional i.e. coffeecan_local1, coffeecan_local2 etc.
 
 ![](Images/step11image1.png)![](Images/step11image2.png)
 
-10. 
+10.
 	a. Install and activate plug-in called ‘All-in-One WP Migration’ (once activated it will be visible in installed plugins section of Wordpress dashboard).
 	b. Increase file import limit on local site so can import the staging server backup: Download and install 'All-in-One WP Migration Import' (Basic version) from website (URL: https://import.wp-migration.com/
 	For details information on how to do this refer (URL: https://help.servmask.com/knowledgebase/install-instructions-for-file-extension/)
@@ -97,9 +97,9 @@ Note: this folder name is optional i.e. coffeecan_local1, coffeecan_local2 etc.
 
 
 NOTE:
-●	Your log in details to your local website may no longer be valid because we just overrode the user details in the local database with the users listed in the staging website. 
+●	Your log in details to your local website may no longer be valid because we just overrode the user details in the local database with the users listed in the staging website.
 
-To fix, log into the site using the admin account details: 
+To fix, log into the site using the admin account details:
 - Username: admin
 - Password: team2password
 Then add yourself back as a user in the WordPress users page. Once you’ve done this, immediately sync your local environment to the staging environment so that your credentials are uploaded to the staging server.
@@ -123,19 +123,28 @@ Once finished with your work and all changes are tested and proven to be functio
 	- Export the website via the 'All-in-One WP Migration' plugin
 	- Visit the live website at http://35.244.90.129/
 	- Import the new version of the website via the 'All-in-One WP Migration' plugin
-	
+
 	Or
 	- Download the most recent website export file in the main branch of the github repository
 	- Visit the live website at http://35.244.90.129/
 	- Import the new version of the website via the 'All-in-One WP Migration' plugin
 
 For accurate version control:
-1. Upload the exported file onto the main branch of the github repository. 
+1. Upload the exported file onto the main branch of the github repository.
 Note: Do not delete the existing one, as backups are important in case of any issues with new versions.
 
 2. Replace the existing wp-content folder in the main branch of the github repository with the contents of your local websites' wp-content folder
 
 3. Commit your changes to the main branch of the github repository (include all necessary/relevant comments detailing your commit).
+
+## Style guide
+- Background color: White (#FFFFFF)
+- Header & Footer BG color: Yellow (#FAF245)
+- Site font: Trebuchet MS
+- Site font size: 16px
+- Header font: Ramabhadra
+- Header font size: 1.5em
+- Site logo provided by client. Instructed not to amend logo design.
 
 ## Built With
 - Wordpress: https://wordpress.org/
@@ -147,7 +156,7 @@ Note: Do not delete the existing one, as backups are important in case of any is
 Versioning is largely handled by github via the use of commits to both the main and production branches of the github repository.
 
 ## Authors
-- Kip Kemei : 
+- Kip Kemei :
 	- Github - https://github.com/kkemei
 	- LinkedIn - https://www.linkedin.com/in/kipngetich-kemei-b83381117/
 - Broderick Thomsen :
@@ -155,7 +164,7 @@ Versioning is largely handled by github via the use of commits to both the main 
 	- LinkedIn - https://www.linkedin.com/in/broderick-thomsen-30a28b117/
 - Greg McLindon :
 	- Github - https://github.com/GregMcLindon
-	- LinkedIn - https://www.linkedin.com/in/greg-mclindon-0ab54b186/ 
+	- LinkedIn - https://www.linkedin.com/in/greg-mclindon-0ab54b186/
 - Hendrik Nel :
 	- Github - https://github.com/Comedy112
 	- LinkedIn - https://www.linkedin.com/in/hendrik-nel-350175b5/
@@ -169,4 +178,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Acknowledgments
 - All contributing members of the development team, with special thanks to: Kip Kemei, Broderick Thompson, Greg McLindon, Dan Archer, Hendrik Nel
 - Sharon (the client - owner of The Coffee Can), for her excellent and expert feedback regarding the development of the website
-
